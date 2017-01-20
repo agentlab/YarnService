@@ -45,7 +45,7 @@ import ru.agentlab.yarn.model.WordReference;
     property = { "service.exported.interfaces=*", "service.exported.configs=ecf.jaxrs.jersey.server",
         "ecf.jaxrs.jersey.server.urlContext=http://localhost:8080", "ecf.jaxrs.jersey.server.alias=/oomph",
         "service.pid=com.bmstu.coursework.oomph.ds.host.OomphComponent" })
-public class OomphComponent
+public class YarnService
     implements IOomphService, ManagedService {
 
     private List<Word> words;
