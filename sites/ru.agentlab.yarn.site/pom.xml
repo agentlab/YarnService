@@ -7,8 +7,8 @@
 	<packaging>eclipse-repository</packaging>
 
 	<parent>
-		<groupId>com.bmstu.coursework.oomph</groupId>
-		<artifactId>com.bmstu.coursework.oomph.sites</artifactId>
+		<groupId>ru.agentlab.yarn</groupId>
+		<artifactId>ru.agentlab.yarn.sites</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
