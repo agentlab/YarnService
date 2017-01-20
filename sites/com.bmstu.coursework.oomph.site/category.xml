@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="ECF Jax-RS Providers Update Site" url="http://example.com/update/org.eclipse.ecf.provider.jaxrs">
+      ECF Jax-RS Providers Update Site
+   </description>
+   <bundle id="com.bmstu.coursework.oomph" version="1.0.0.qualifier">
+      <category name="com.bmstu.coursework.oomph.site"/>
+   </bundle>
+   <bundle id="com.bmstu.coursework.oomph.ds.host" version="1.0.0.qualifier">
+      <category name="com.bmstu.coursework.oomph.site"/>
+   </bundle>
+   <bundle id="com.bmstu.coursework.oomph.model" version="1.0.0.qualifier">
+      <category name="com.bmstu.coursework.oomph.site"/>
+   </bundle>
+   <category-def name="com.bmstu.coursework.oomph.site" label="OomphConfigService"/>
+</site>

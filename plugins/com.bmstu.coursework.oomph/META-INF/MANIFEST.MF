@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: ru.agentlab.yarn;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: %bundleProvider
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8,
+ CDC-1.1/Foundation-1.1
+Bundle-ActivationPolicy: lazy
+Export-Package: ru.agentlab.yarn;version="1.0.0"
+Import-Package: org.eclipse.ecf.remoteservice,
+ ru.agentlab.yarn.model
